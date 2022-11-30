@@ -1,0 +1,22 @@
+<?php
+//clase llamada vehiculo//
+class vehiculo
+{
+    public function __construct(
+        public $color,
+        public $peso
+        )
+    {}  
+}
+//creamos objetos//
+$vehiculo1= new vehiculo(
+    'rojo',//propiedades//
+    '300kg'
+);
+$vehiculo2= new vehiculo(
+    'rojo',
+    '4000kg'
+);
+//llamamos informacion de cualquier objeto//
+echo $vehiculo2->color;
+echo $vehiculo1->peso;
