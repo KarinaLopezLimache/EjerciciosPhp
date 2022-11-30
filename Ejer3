@@ -1,0 +1,27 @@
+<center>
+<?php
+    $var1 = "Esto es una cadena de texto";
+    $var2 = 59;
+    $var3 = false;
+    $miArray = array("Lunes", "Martes", "Miércoles");
+    echo "var_dump()<br />";
+    echo "==========<p />";
+    echo var_dump($var1)."<br />";
+    echo var_dump($var2)."<br />";
+    echo var_dump($var3)."<br />";
+    echo "<pre>";var_dump($miArray);echo "</pre><p />";
+    echo "var_export()<br />";
+    echo "==========<p />";
+    echo var_export($var1)."<br />";
+    echo var_export($var2)."<br />";
+    echo var_export($var3)."<br />";
+    echo "<pre>";
+    var_export($miArray);
+    echo "</pre><p />";
+    echo "print_r()<br />";
+    echo "==========<p />";
+    echo "<pre>";
+    print_r($miArray);
+    echo "</pre>";
+?>
+<h2>
