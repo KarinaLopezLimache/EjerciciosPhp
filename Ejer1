@@ -1,0 +1,12 @@
+<?php
+//probando metodo con herencia//
+class padres{
+    public function metodopa(){
+       return "hola"; 
+    }  
+}
+class clasehijo extends padres{
+}
+
+$obj=new clasehijo();
+echo $obj->metodopa()
